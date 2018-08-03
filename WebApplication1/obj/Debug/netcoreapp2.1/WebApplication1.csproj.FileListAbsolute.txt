@@ -1,0 +1,14 @@
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.deps.json
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.runtimeconfig.json
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.runtimeconfig.dev.json
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.dll
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csprojAssemblyReference.cache
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csproj.CoreCompileInputs.cache
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorAssemblyInfo.cache
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorAssemblyInfo.cs
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.AssemblyInfoInputs.cache
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.AssemblyInfo.cs
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorTargetAssemblyInfo.cache
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.pdb
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.dll
+E:\workspace\Assignment-dotnet\New folder (2)\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.pdb
