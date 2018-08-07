@@ -1,0 +1,17 @@
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.deps.json
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.runtimeconfig.json
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.runtimeconfig.dev.json
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.dll
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.csprojAssemblyReference.cache
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.csproj.CoreCompileInputs.cache
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.AssemblyInfoInputs.cache
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.AssemblyInfo.cs
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.pdb
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\bin\Debug\netcoreapp2.1\WebApplication1.dll
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\bin\Debug\netcoreapp2.1\WebApplication1.pdb
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.csproj.CopyComplete
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.dll
+E:\workspace\Assignment-dotnet\Final\todo-mvc-csharp-problem-RehmanaliMomin\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.pdb
