@@ -94,7 +94,7 @@ namespace XUnitTestProject1
             context.AddRange(notes);
             context.SaveChanges();
 
-            Console.WriteLine(notes[0].Id +" ========= "+notes[1].Id);
+           // Console.WriteLine(notes[0].Id +" ========= "+notes[1].Id);
         }
 
 
@@ -105,7 +105,7 @@ namespace XUnitTestProject1
             var result = _controller.GetNotes();
             var objectResult = result as ObjectResult;
             var notes = objectResult.Value as List<Notes>;
-            Console.WriteLine(notes[1].Id);
+           // Console.WriteLine(notes[1].Id);
             Assert.Equal(3, notes.Count);
         }
 
@@ -162,7 +162,7 @@ namespace XUnitTestProject1
             var OkObjectResult = result as OkObjectResult;
             //Assert.True(condition: result, OkObjectResult);
             var notes = OkObjectResult.Value as Notes;
-            Console.WriteLine(notes.Title);
+           // Console.WriteLine(notes.Title);
             Assert.Equal(id, notes.Id);
             Assert.Equal(200, OkObjectResult.StatusCode);
         }
@@ -274,8 +274,6 @@ namespace XUnitTestProject1
 
             Assert.True(flag);
         }
-
-
 
     }
 }

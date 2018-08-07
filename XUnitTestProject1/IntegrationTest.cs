@@ -66,20 +66,20 @@ namespace XUnitTestProject1
 
 
 
-        //[Fact]
-        //public async void TestGetRequest()
-        //{
-        //    var response = await _client.GetAsync("/api/notes/GetNotes");
-        //    var responseBody = await response.Content.ReadAsStringAsync();
-        //    Assert.Equal(2, responseBody.ToList().Count);
-        //}
+        [Fact]
+        public async void TestGetRequest()
+        {
+            var response = await _client.GetAsync("/api/notes/GetNotes");
+            var responseBody = await response.Content.ReadAsStringAsync();
+            Assert.Equal(2, responseBody.ToList().Count);
+        }
 
-        //[Fact]
-        //public async void TestGetResponseCodeRequest()
-        //{
-        //    var response = await _client.GetAsync("/api/notes/GetNotes");
-        //    Assert.Equal(HttpStatusCode.OK, response.StatusCode);
-        //}
+        [Fact]
+        public async void TestGetResponseCodeRequest()
+        {
+            var response = await _client.GetAsync("/api/notes/GetNotes");
+            Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        }
 
 
         //[Fact]
