@@ -40,7 +40,7 @@ namespace WebApplication1
             else
             {
                 services.AddDbContext<NotesAPIContext>(options =>
-               options.UseInMemoryDatabase("InMemoryDataBaseString"));
+               options.UseInMemoryDatabase("NotesAPIContext"));
             }
           
             services.AddSwaggerGen(c =>

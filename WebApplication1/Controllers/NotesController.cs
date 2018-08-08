@@ -87,7 +87,13 @@ namespace WebApplication1.Controllers
                 return BadRequest(ModelState);
             }
             var NonNullDatas = _notesContext.notes.Include(s => s.Content).Include(s => s.Label).Where(x => x.Label != null);
-            return Ok(await NonNullDatas.Where(x => x.Label.Any(y => y.LabelName == label)).ToListAsync());
+            var data = await NonNullDatas.Where(x => x.Label.Any(y => y.LabelName == label)).ToListAsync();
+            Console.WriteLine(data);
+            if (data.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(data);
             
         }
 
@@ -116,9 +122,23 @@ namespace WebApplication1.Controllers
            
 
             _notesContext.notes.Update(note);
-            await _notesContext.SaveChangesAsync();
-            
-            return Ok(note);
+
+            try
+            {
+                await _notesContext.SaveChangesAsync();
+            }
+            catch(DbUpdateConcurrencyException)
+            {
+                if (_notesContext.notes.Any(e => e.Id == id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+            return NoContent();
         }
 
         [HttpDelete("{id}")]
@@ -132,6 +152,9 @@ namespace WebApplication1.Controllers
             var notes = GetNotes();
             ObjectResult res = notes as OkObjectResult;
             var note = res.Value as List<Notes>;
+
+            if (note == null) return NotFound();
+
             Notes n = null;
             foreach (var item in note)
             {
